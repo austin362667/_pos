@@ -3,19 +3,19 @@
 A new Flutter project using Dart to build backend, and gRPC for communication which means no json or http/1. 
 
 ## Getting Started
-constructing..
+* constructing..
 
-##gRPC quick-start
-Protocol Buffers v3 
-Update a gRPC service
-Generate gRPC code..
+## gRPC quick-start
+1. Protocol Buffers v3 
+2. Update a gRPC service
+3. Generate gRPC code..
 ```
 protoc --dart_out=grpc:lib/src/generated -Iprotos protos/pos.proto
 ```
-Update and run the application!
+4. Update and run the application!
 
-#Database
-##using postgres
+## Database
+using postgres
 
 ```
 initdb.exe -D "C:\local\posDb"
@@ -28,7 +28,7 @@ DELETE FROM "user";
 ```
 
 
-#Testing Outcome
+## Testing Outcome
 
 ```
 flutter test       
