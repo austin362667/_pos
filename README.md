@@ -15,7 +15,7 @@ protoc --dart_out=grpc:lib/src/generated -Iprotos protos/pos.proto
 4. Update and run the application!
 
 ## Database
-using postgres
+using PostgreSQL
 
 ```
 initdb.exe -D "C:\local\posDb"
