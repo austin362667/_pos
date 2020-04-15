@@ -12,7 +12,7 @@ A new Flutter project using Dart to build backend, and gRPC for communication wh
 ```
 protoc --dart_out=grpc:lib/src/generated -Iprotos protos/pos.proto
 ```
-4. Update and run the application!
+4. Update server and client and run the application!
 
 ## Database
 using PostgreSQL
