@@ -19,7 +19,7 @@ using PostgreSQL
 
 ```
 initdb.exe -D "C:\local\posDb"
-pg_ctl -D "C:\local\posDb^"" -l logfile start
+pg_ctl -D "C:\local\posDb" -l logfile start
 createdb db
 psql db
 CREATE TABLE "user" (email varchar(80),password varchar(80));
