@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pos/client.dart';
+import 'package:grpc/grpc.dart';
+
+import 'package:pos/src/generated/pos.pb.dart';
+import 'package:pos/src/generated/pos.pbgrpc.dart';
 
 void main() {
   runApp(MyApp());

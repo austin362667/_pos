@@ -1,6 +1,3 @@
-import 'package:pos/db.dart';
-import 'package:pos/user.dart';
-
 class User {
 
   final String email;

@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-/// Dart implementation of the gRPC helloworld.Greeter server.
+/// Dart implementation of the gRPC pos.User server.
 import 'package:grpc/grpc.dart';
 
 import 'package:pos/src/generated/pos.pb.dart';

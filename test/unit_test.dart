@@ -16,7 +16,7 @@ Future<void> main() async {
   final password = "00000000";
   final wrongPwd = "12345678";
 
-  test('User tester@austincap SignUp with password 00000000 should work!', () async {
+  test('User tester@austincap.com SignUp with password 00000000 should work!', () async {
     try {
       final response = await stub.signUp(SignUpRequest()
                                                 ..email = email

@@ -23,7 +23,7 @@ pg_ctl -D "C:\local\posDb" -l logfile start
 createdb db
 psql db
 CREATE TABLE "user" (email varchar(80),password varchar(80));
-
+SELECT * FROM "user";
 DELETE FROM "user";
 ```
 
@@ -33,7 +33,7 @@ DELETE FROM "user";
 ```
 flutter test       
 C:\Users\Austin\Desktop\cc\pos>flutter test        
-00:03 +0: C:\Users\Austin\Desktop\cc\pos\test\unit_test.dart: User tester@austincap SignUp with password 00000000 should work!
+00:03 +0: C:\Users\Austin\Desktop\cc\pos\test\unit_test.dart: User tester@austincap.com SignUp with password 00000000 should work!
 Client received: SignUp, tester@austincap.com!     
 00:03 +1: C:\Users\Austin\Desktop\cc\pos\test\unit_test.dart: User tester@austincap.com SignUp with password 00000000 should not work..
 Client received: Error: User already exist!        

@@ -29,7 +29,6 @@ package pos;
 // }
 
 service User {
-  // Sends a greeting
   rpc signUp (SignUpRequest) returns (SignUpReply) {}
   rpc logIn (LogInRequest) returns (LogInReply) {}
 }
